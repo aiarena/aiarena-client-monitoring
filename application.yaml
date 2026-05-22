@@ -1,9 +1,0 @@
-kind: Application
-apiVersion: argoproj.io/v1alpha1
-metadata:
-  namespace: grafana
-  name: monitoring
-spec:
-  source:
-    directory:
-      recurse: true
